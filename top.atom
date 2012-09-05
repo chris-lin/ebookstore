@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:app="http://www.w3.org/2007/app" xmlns="http://www.w3.org/2005/Atom">
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC027000&amp;amp;lang=en&amp;amp;range=week</id>
+  <title>Browsing eBooks Store /  Best Selling / Romance</title>
+  <updated>2012-09-05T02:58:40Z</updated>
+  <icon>http://assets1.feedbooks.net/images/favicon.ico?t=1346771812</icon>
+  <author>
+    <name>Feedbooks</name>
+    <uri>http://www.feedbooks.com</uri>
+    <email>support@feedbooks.zendesk.com</email>
+  </author>
+  <link type="application/atom+xml; profile=opds-catalog; kind=acquisition" rel="self" href="http://www.feedbooks.com/store/top.atom?category=FBFIC027000&amp;amp;lang=en&amp;amp;range=week"/>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="start" title="Home" href="/catalog.atom"/>
+  <link type="application/opensearchdescription+xml" rel="search" title="Search on Feedbooks" href="http://assets3.feedbooks.net/opensearch.xml?t=1346771628"/>
+  <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/shelf" title="Bookshelf" href="https://www.feedbooks.com/user/bookshelf.atom"/>
+<opensearch:totalResults>16825</opensearch:totalResults>
+<opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="next" title="Next Page" href="http://www.feedbooks.com/store/top.atom?category=FBFIC027000&amp;lang=en&amp;page=2&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="Best Selling" opds:activeFacet="true" opds:facetGroup="Sort" href="/store/top.atom?category=FBFIC027000&amp;lang=en&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="New Releases" opds:facetGroup="Sort" href="/store/recent.atom?category=FBFIC027000&amp;lang=en&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="Title: A-Z" opds:facetGroup="Sort" href="/store/title/asc.atom?category=FBFIC027000&amp;lang=en&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="Title: Z-A" opds:facetGroup="Sort" href="/store/title/desc.atom?category=FBFIC027000&amp;lang=en&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="Price: Lowest to Highest" opds:facetGroup="Sort" href="/store/price/lowest.atom?category=FBFIC027000&amp;lang=en&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="All" opds:facetGroup="Price" href="/store/top.atom?category=FBFIC027000&amp;lang=en&amp;price=all&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="Free" opds:facetGroup="Price" href="/store/top.atom?category=FBFIC027000&amp;lang=en&amp;price=free&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="Below $5" opds:facetGroup="Price" href="/store/top.atom?category=FBFIC027000&amp;lang=en&amp;price=5&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="Below $10" opds:facetGroup="Price" href="/store/top.atom?category=FBFIC027000&amp;lang=en&amp;price=10&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="Below $15" opds:facetGroup="Price" href="/store/top.atom?category=FBFIC027000&amp;lang=en&amp;price=15&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="Over $15" opds:facetGroup="Price" href="/store/top.atom?category=FBFIC027000&amp;lang=en&amp;price=15%2B&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="English" opds:activeFacet="true" opds:facetGroup="Language" href="/store/top.atom?category=FBFIC027000&amp;lang=en&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="French" opds:facetGroup="Language" href="/store/top.atom?category=FBFIC027000&amp;lang=fr&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="German" opds:facetGroup="Language" href="/store/top.atom?category=FBFIC027000&amp;lang=de&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="Spanish" opds:facetGroup="Language" href="/store/top.atom?category=FBFIC027000&amp;lang=es&amp;range=week"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/facet" title="Italian" opds:facetGroup="Language" href="/store/top.atom?category=FBFIC027000&amp;lang=it&amp;range=week"/>
+<entry>
+<title>The Duchess of Love</title>
+<id>http://www.feedbooks.com/item/231313</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781420123203</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781420123203</dcterms:identifier>
+<author>
+  <name>Sally MacKenzie</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Sally+MacKenzie%22</uri>
+</author>
+<published>2012-04-25T08:24:10Z</published>
+<updated>2012-04-25T08:24:10Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Zebra</dcterms:publisher>
+<dcterms:issued>2012-04-23</dcterms:issued>
+<summary>A DUKE IN DISGUISE...The day was as hot as the pond was inviting. It's not as if anyone in Little Huffington was going to happen upon a secluded vale on the Duke of Greycliffe's lands. And Venus Collingswood didn't want to get her shift all wet. I...</summary>
+<dcterms:extent>120 pages</dcterms:extent>
+<dcterms:extent>449 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Historical" term="FBFIC027050"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/231313"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/231313.jpg?t=1335342250"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/231313.jpg?size=thumbnail&amp;t=1335342250"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/231313/buy">
+  <opds:price currencycode="USD">1.99</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/231313.atom"/>
+</entry>
+<entry>
+<title>Love, Sex &amp; the Wrong Bride</title>
+<id>http://www.feedbooks.com/item/103068</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9780983499053</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9780983499053</dcterms:identifier>
+<author>
+  <name>Katia Lief</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Katia+Lief%22</uri>
+</author>
+<published>2011-06-08T04:41:53Z</published>
+<updated>2012-08-25T10:05:16Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Blue Table Books</dcterms:publisher>
+<dcterms:issued>2011-05-26</dcterms:issued>
+<summary>&quot;Laugh-aloud funny.&quot; -Publishers Weekly  Dawn and Hank's breakup is so fresh that she can see the tan line where her engagement ring used to be. She is still in love with Hank, who dumped her for Christine-and they're living together now. But when...</summary>
+<dcterms:extent>424 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Humorous" term="FBFIC016000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Contemporary" term="FBFIC027020"/>
+<category label="Contemporary Women" term="FBFIC044000"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/103068"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/103068.jpg?t=1345889116"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/103068.jpg?size=thumbnail&amp;t=1345889116"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/103068/buy">
+  <opds:price currencycode="USD">1.79</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/103068.atom"/>
+</entry>
+<entry>
+<title>The Wolf Within</title>
+<id>http://www.feedbooks.com/item/163815</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781616503369</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781616503369</dcterms:identifier>
+<author>
+  <name>Bennett Sondrae</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Bennett+Sondrae%22</uri>
+</author>
+<published>2011-10-30T06:08:26Z</published>
+<updated>2012-05-28T01:22:25Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Lyrical Press, Inc</dcterms:publisher>
+<dcterms:issued>2011-11-20</dcterms:issued>
+<summary>Will his love be enough to keep her safe?   Julie doesn't know what to think when the man she's had a crush on her entire life--a man she thinks is meant to be her sister's mate--starts flirting with her after she returns home from college. The ha...</summary>
+<dcterms:extent>620 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Paranormal" term="FBFIC027120"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/163815"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/163815.jpg?t=1338168145"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/163815.jpg?size=thumbnail&amp;t=1338168145"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/163815/buy">
+  <opds:price currencycode="USD">2.79</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/163815.atom"/>
+</entry>
+<entry>
+<title>Lord of Shadows</title>
+<id>http://www.feedbooks.com/item/177706</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9780987704269</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9780987704269</dcterms:identifier>
+<author>
+  <name>Nickie Asher</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Nickie+Asher%22</uri>
+</author>
+<published>2011-12-08T11:42:05Z</published>
+<updated>2012-07-05T00:31:20Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>RH Publishing</dcterms:publisher>
+<dcterms:issued>2011-08-29</dcterms:issued>
+<summary>Tierney has a problem beyond hunting his next meal on the streets of nineteenth century New Orleans. He is hopelessly in love with Sarah, a slayer's daughter. Tierney is determined to carry on his erotic affair with the beautiful young woman despi...</summary>
+<dcterms:extent>523 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Erotica" term="FBFIC005000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Paranormal" term="FBFIC027120"/>
+<category label="Adult" term="FBFIC027010"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/177706"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/177706.jpg?t=1341448280"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/177706.jpg?size=thumbnail&amp;t=1341448280"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/177706/buy">
+  <opds:price currencycode="USD">1.79</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/177706.atom"/>
+</entry>
+<entry>
+<title>Once Upon a Winter's Eve</title>
+<id>http://www.feedbooks.com/item/166180</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781609288822</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781609288822</dcterms:identifier>
+<author>
+  <name>Tessa Dare</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Tessa+Dare%22</uri>
+</author>
+<published>2011-11-04T08:41:10Z</published>
+<updated>2012-03-23T13:03:05Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Samhain Publishing, Ltd.</dcterms:publisher>
+<dcterms:issued>2011-11-14</dcterms:issued>
+<summary>Some wallflowers bloom at night... A Spindle Cove NovellaViolet Winterbottom is a quiet girl. She speaks six languages, but seldom raises her voice.  She endured bitter heartbreak in perfect silence.  The gentlemen aren't beating down her door. Un...</summary>
+<dcterms:extent>116 pages</dcterms:extent>
+<dcterms:extent>868 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Historical" term="FBFIC027050"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/166180"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/166180.jpg?t=1332507785"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/166180.jpg?size=thumbnail&amp;t=1332507785"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/166180/buy">
+  <opds:price currencycode="USD">1.79</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/166180.atom"/>
+</entry>
+<entry>
+<title>The Return of Rafe MacKade</title>
+<id>http://www.feedbooks.com/item/104919</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781459213234</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781459213234</dcterms:identifier>
+<author>
+  <name>Nora Roberts</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Nora+Roberts%22</uri>
+</author>
+<published>2011-06-18T04:00:22Z</published>
+<updated>2012-01-05T06:01:52Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Silhouette Special Releases</dcterms:publisher>
+<dcterms:issued>2011-06-19</dcterms:issued>
+<summary>Ten years after disappearing from Antietam, Maryland, the bad boy has returned. Cleaned up and successful now&amp;#151;and still dangerously good-looking&amp;#151;Rafe MacKade sets the town on fire, and tongues wagging.Lovely newcomer Regan Jones is intri...</summary>
+<dcterms:extent>679 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Contemporary" term="FBFIC027020"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/104919"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/104919.jpg?t=1325743312"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/104919.jpg?size=thumbnail&amp;t=1325743312"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/104919/buy">
+  <opds:price currencycode="USD">5.29</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/104919.atom"/>
+</entry>
+<entry>
+<title>Sinful Surrender</title>
+<id>http://www.feedbooks.com/item/6281</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781420117486</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781420108699</dcterms:identifier>
+<author>
+  <name>Beverley Kendall</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Beverley+Kendall%22</uri>
+</author>
+<published>2010-11-24T18:08:53Z</published>
+<updated>2012-01-05T06:23:06Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Kensington</dcterms:publisher>
+<dcterms:issued>2009-12-31</dcterms:issued>
+<summary>Millicent &quot;Missy&quot; Armstrong is entering her third London Season, but not for lack of suitors. Since her debut three years ago, Missy has received twenty marriage proposals. But she is interested in only one man--her brother's best friend, James Ru...</summary>
+<dcterms:extent>352 pages</dcterms:extent>
+<dcterms:extent>371 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Historical" term="FBFIC027050"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/6281"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/6281.jpg?t=1325744586"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/6281.jpg?size=thumbnail&amp;t=1325744586"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/6281/buy">
+  <opds:price currencycode="USD">3.29</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/6281.atom"/>
+</entry>
+<entry>
+<title>Raising the Stakes</title>
+<id>http://www.feedbooks.com/item/39765</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781609282615</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781609282615</dcterms:identifier>
+<author>
+  <name>Jess Dee</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Jess+Dee%22</uri>
+</author>
+<published>2010-11-25T17:54:35Z</published>
+<updated>2012-01-05T05:29:51Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Samhain Publishing, Ltd.</dcterms:publisher>
+<dcterms:issued>2010-12-06</dcterms:issued>
+<summary>Play out the hand her way...or fold? Three of a Kind, Book 2After four years, Megan Loxley has given up waiting for her best friend, Desmond Reed, to realize she loves him. It's time to move on. When Des introduces her to his poker buddy, Alex Tru...</summary>
+<dcterms:extent>717 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Contemporary" term="FBFIC027020"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/39765"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/39765.jpg?t=1325741391"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/39765.jpg?size=thumbnail&amp;t=1325741391"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/39765/buy">
+  <opds:price currencycode="USD">3.79</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/39765.atom"/>
+</entry>
+<entry>
+<title>The Fall of Shane MacKade</title>
+<id>http://www.feedbooks.com/item/104922</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781459213265</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781459213265</dcterms:identifier>
+<author>
+  <name>Nora Roberts</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Nora+Roberts%22</uri>
+</author>
+<published>2011-06-18T04:00:24Z</published>
+<updated>2012-01-05T06:01:49Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Silhouette Special Releases</dcterms:publisher>
+<dcterms:issued>2011-06-19</dcterms:issued>
+<summary>Shane MacKade loved women. He loved the look of them, the smell of them, the taste of them&amp;#151;everything about them. So the last thing he expected was to become a one-woman man. And even more surprising was that it was the Ph.D.-toting academic ...</summary>
+<dcterms:extent>5.1 MB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Contemporary" term="FBFIC027020"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/104922"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/104922.jpg?t=1325743309"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/104922.jpg?size=thumbnail&amp;t=1325743309"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/104922/buy">
+  <opds:price currencycode="USD">5.29</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/104922.atom"/>
+</entry>
+<entry>
+<title>A Wife for a Westmoreland</title>
+<id>http://www.feedbooks.com/item/77717</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781426889172</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9780373730902</dcterms:identifier>
+<author>
+  <name>Brenda Jackson</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Brenda+Jackson%22</uri>
+</author>
+<published>2011-03-17T05:38:50Z</published>
+<updated>2012-01-05T05:43:21Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Harlequin Desire</dcterms:publisher>
+<dcterms:issued>2011-03-31</dcterms:issued>
+<summary>For weeks, Derringer Westmoreland was haunted by memories of a woman whose face he could not recall. But he wanted&amp;#151;he needed&amp;#151;to share that intense passion again. Now. When he finally traced his mystery woman, he was met with a surprise. ...</summary>
+<dcterms:extent>192 pages</dcterms:extent>
+<dcterms:extent>278 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Contemporary" term="FBFIC027020"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/77717"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/77717.jpg?t=1325742201"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/77717.jpg?size=thumbnail&amp;t=1325742201"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/77717/buy">
+  <opds:price currencycode="USD">3.49</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/77717.atom"/>
+</entry>
+<entry>
+<title>The Darkest Seduction</title>
+<id>http://www.feedbooks.com/item/213379</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781459222830</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9780373776573</dcterms:identifier>
+<author>
+  <name>Gena Showalter</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Gena+Showalter%22</uri>
+</author>
+<published>2012-03-04T05:59:23Z</published>
+<updated>2012-03-23T11:08:27Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>HQN Books</dcterms:publisher>
+<dcterms:issued>2012-02-27</dcterms:issued>
+<summary>At long last, New York Times bestselling author Gena Showalter unveils the story of Paris, the darkest and most tormented Lord of the Underworld&amp;#133;.Possessed by the demon of Promiscuity, immortal warrior Paris is irresistibly seductive&amp;#151;but...</summary>
+<dcterms:extent>416 pages</dcterms:extent>
+<dcterms:extent>467 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Paranormal" term="FBFIC027120"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/213379"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/213379.jpg?t=1332500907"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/213379.jpg?size=thumbnail&amp;t=1332500907"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/213379/buy">
+  <opds:price currencycode="USD">5.29</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/213379.atom"/>
+</entry>
+<entry>
+<title>The Heart of Devin MacKade</title>
+<id>http://www.feedbooks.com/item/104921</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781459213258</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781459213258</dcterms:identifier>
+<author>
+  <name>Nora Roberts</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Nora+Roberts%22</uri>
+</author>
+<published>2011-06-18T04:00:24Z</published>
+<updated>2012-01-05T06:01:53Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Silhouette Special Releases</dcterms:publisher>
+<dcterms:issued>2011-06-19</dcterms:issued>
+<summary>Devin MacKade knew it was his destiny to serve and protect the small town of Antietam, Maryland. And he always suspected his future should have little Cassie Connor in it. After Cassie married the wrong man, Devin tried to convince himself there w...</summary>
+<dcterms:extent>775 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Contemporary" term="FBFIC027020"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/104921"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/104921.jpg?t=1325743313"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/104921.jpg?size=thumbnail&amp;t=1325743313"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/104921/buy">
+  <opds:price currencycode="USD">5.29</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/104921.atom"/>
+</entry>
+<entry>
+<title>The Westmorelands books 11-15</title>
+<id>http://www.feedbooks.com/item/91526</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781426833281</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781426833281</dcterms:identifier>
+<author>
+  <name>Brenda Jackson</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Brenda+Jackson%22</uri>
+</author>
+<published>2011-05-12T09:00:18Z</published>
+<updated>2012-01-21T02:05:45Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Silhouette Desire</dcterms:publisher>
+<dcterms:issued>2009-04-30</dcterms:issued>
+<summary>Bestselling author Brenda Jackson's brings you five more stories in the Westmorelands saga, now available in one convenient download! This bundle includes books eleven through fifteen of the series: Spencer's Forbidden Passion, Taming Clint Westmo...</summary>
+<dcterms:extent>1.5 MB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Contemporary" term="FBFIC027020"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/91526"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/91526.jpg?t=1327111545"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/91526.jpg?size=thumbnail&amp;t=1327111545"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/91526/buy">
+  <opds:price currencycode="USD">12.49</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/91526.atom"/>
+</entry>
+<entry>
+<title>The Darkest Surrender</title>
+<id>http://www.feedbooks.com/item/149186</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781459213852</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9780373775811</dcterms:identifier>
+<author>
+  <name>Gena Showalter</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Gena+Showalter%22</uri>
+</author>
+<published>2011-09-21T08:41:12Z</published>
+<updated>2012-01-05T06:20:21Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>HQN Books</dcterms:publisher>
+<dcterms:issued>2011-09-26</dcterms:issued>
+<summary>Possessed by the demon of Defeat, Strider cannot lose a challenge without suffering unimaginable pain. For him, nothing stands in the way of victory. Until Kaia, an enchanting Harpy, tempts him to the razor's edge of surrender.Known among her peop...</summary>
+<dcterms:extent>384 pages</dcterms:extent>
+<dcterms:extent>453 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Paranormal" term="FBFIC027120"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/149186"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/149186.jpg?t=1325744421"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/149186.jpg?size=thumbnail&amp;t=1325744421"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/149186/buy">
+  <opds:price currencycode="USD">5.29</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/149186.atom"/>
+</entry>
+<entry>
+<title>At Home in Stone Creek</title>
+<id>http://www.feedbooks.com/item/91311</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781426842863</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9780373654871</dcterms:identifier>
+<author>
+  <name>Linda Lael Miller</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Linda+Lael+Miller%22</uri>
+</author>
+<published>2011-05-12T08:46:56Z</published>
+<updated>2012-01-05T05:55:15Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Silhouette Special Edition</dcterms:publisher>
+<dcterms:issued>2009-10-31</dcterms:issued>
+<summary>Everyone in Ashley O'Ballivan's life is marrying and starting families--except her. But what date can compare to Jack McCall, the man who broke her heart years ago?And now he's mysteriously back. But he isn't who she thinks he is.After a dangerous...</summary>
+<dcterms:extent>224 pages</dcterms:extent>
+<dcterms:extent>767 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Contemporary" term="FBFIC027020"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/91311"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/91311.jpg?t=1325742915"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/91311.jpg?size=thumbnail&amp;t=1325742915"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/91311/buy">
+  <opds:price currencycode="USD">3.49</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/91311.atom"/>
+</entry>
+<entry>
+<title>Harden</title>
+<id>http://www.feedbooks.com/item/77775</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781459200012</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9780373363681</dcterms:identifier>
+<author>
+  <name>Diana Palmer</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Diana+Palmer%22</uri>
+</author>
+<published>2011-03-17T05:40:08Z</published>
+<updated>2012-01-05T05:43:40Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Harlequin Special Releases</dcterms:publisher>
+<dcterms:issued>2011-03-31</dcterms:issued>
+<summary>Born into a sprawling ranching family, rugged Harden Tremayne was the toughest, wildest man ever to come out of Texas cattle country. And the loneliest. Until he met Miranda Warren, the lovely Chicago widow who aroused feelings too long denied&amp;#15...</summary>
+<dcterms:extent>192 pages</dcterms:extent>
+<dcterms:extent>305 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Contemporary" term="FBFIC027020"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/77775"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/77775.jpg?t=1325742220"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/77775.jpg?size=thumbnail&amp;t=1325742220"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/77775/buy">
+  <opds:price currencycode="USD">4.49</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/77775.atom"/>
+</entry>
+<entry>
+<title>Kentucky Bride</title>
+<id>http://www.feedbooks.com/item/16328</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781420119152</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781420104653</dcterms:identifier>
+<author>
+  <name>Hannah Howell</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Hannah+Howell%22</uri>
+</author>
+<published>2010-11-25T04:38:16Z</published>
+<updated>2012-01-05T05:18:22Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Zebra</dcterms:publisher>
+<dcterms:issued>2010-04-30</dcterms:issued>
+<summary>Beautiful Clover Sherwood never expected such a cruel fate. Her father's death has left her penniless, ostracized from Pennsylvania society, and abandoned by her fianc&#233;. All she has now is a grieving mother, two hungry little brothers and no prosp...</summary>
+<dcterms:extent>384 pages</dcterms:extent>
+<dcterms:extent>2.5 MB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Historical" term="FBFIC027050"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/16328"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/16328.jpg?t=1325740702"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/16328.jpg?size=thumbnail&amp;t=1325740702"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/16328/buy">
+  <opds:price currencycode="USD">4.29</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/16328.atom"/>
+</entry>
+<entry>
+<title>Child of Promise</title>
+<id>http://www.feedbooks.com/item/87081</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781441217370</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9780800757618</dcterms:identifier>
+<author>
+  <name>Kathleen Morgan</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Kathleen+Morgan%22</uri>
+</author>
+<published>2011-04-26T07:32:57Z</published>
+<updated>2012-06-24T06:54:06Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Revell</dcterms:publisher>
+<dcterms:issued>2007-10-31</dcterms:issued>
+<summary>New doctor Beth McKay finds her life and heart entwined with a recently widowed minister. Book 4 in the Brides of Culdee Creek series set in late 19th-century Colorado.</summary>
+<dcterms:extent>843 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Christian" term="FBFIC042000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Historical" term="FBFIC027050"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/87081"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/87081.jpg?t=1340520846"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/87081.jpg?size=thumbnail&amp;t=1340520846"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/87081/buy">
+  <opds:price currencycode="USD">5.29</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/87081.atom"/>
+</entry>
+<entry>
+<title>Bachelor Unleashed</title>
+<id>http://www.feedbooks.com/item/79763</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781426876141</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9780373861880</dcterms:identifier>
+<author>
+  <name>Brenda Jackson</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Brenda+Jackson%22</uri>
+</author>
+<published>2011-03-27T23:19:46Z</published>
+<updated>2012-01-05T05:46:15Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Kimani Romance</dcterms:publisher>
+<dcterms:issued>2010-11-30</dcterms:issued>
+<summary>They had a hot, fleeting affair Farrah Langley has never forgotten. Attorney-to-the-rich-and-famous Xavier Kane was tender, sexy, attentive&amp;#151;and ravished her body. Everything she ever wanted in a lover. Getting together with him again in New Y...</summary>
+<dcterms:extent>224 pages</dcterms:extent>
+<dcterms:extent>487 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Contemporary" term="FBFIC027020"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/79763"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/79763.jpg?t=1325742375"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/79763.jpg?size=thumbnail&amp;t=1325742375"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/79763/buy">
+  <opds:price currencycode="USD">3.79</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/79763.atom"/>
+</entry>
+<entry>
+<title>Bedding Lord Ned</title>
+<id>http://www.feedbooks.com/item/233828</id>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781420128482</dcterms:identifier>
+<dcterms:identifier xsi:type="dcterms:URI">urn:ISBN:9781420123210</dcterms:identifier>
+<author>
+  <name>Sally MacKenzie</name>
+  <uri>http://www.feedbooks.com/search?query=contributor%3A%22Sally+MacKenzie%22</uri>
+</author>
+<published>2012-05-04T23:04:39Z</published>
+<updated>2012-06-08T00:11:16Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:publisher>Zebra</dcterms:publisher>
+<dcterms:issued>2012-06-04</dcterms:issued>
+<summary>Pleasure Is On Her Dance CardDetermined to find a husband, Miss Eleanor &quot;Nell&quot; Bowman attends a ball put on by the Duchess of Greycliffe, fondly referred to as the Duchess of Love. But she roundly dismisses the suitors the matchmaking hostess has ...</summary>
+<dcterms:extent>352 pages</dcterms:extent>
+<dcterms:extent>742 KB</dcterms:extent>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Romance" term="FBFIC027000"/>
+<category label="Historical" term="FBFIC027050"/>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://www.feedbooks.com/item/233828"/>
+<link type="image/png" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/item/233828.jpg?t=1339114276"/>
+<link type="image/png" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/item/233828.jpg?size=thumbnail&amp;t=1339114276"/>
+<link type="text/html" rel="http://opds-spec.org/acquisition/buy" href="https://www.feedbooks.com/item/233828/buy">
+  <opds:price currencycode="USD">5.29</opds:price>
+  <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+  </opds:indirectAcquisition>
+</link>
+<link type="application/atom+xml;type=entry;profile=opds-catalog" rel="alternate" title="Full entry" href="http://www.feedbooks.com/item/233828.atom"/>
+</entry>
+</feed>

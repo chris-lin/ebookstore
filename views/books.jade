@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    - for (var books in entry)
+        .abc
+            h3= entry[books].title
+            img(src='#{entry[books].link[2].href}')
+            p 書名： #{entry[books].title}
+            p 作者：#{entry[books].author.name}
+            p 上傳日期：#{entry[books].updated}
+            p 摘要：#{entry[books].summary}
+

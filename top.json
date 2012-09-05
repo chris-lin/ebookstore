@@ -1,0 +1,391 @@
+[
+    {
+        "title": "Workaholic - English edition",
+        "id": "http://www.feedbooks.com/item/204452",
+        "dcterms:identifier": [
+            {
+                "xsi:type": "dcterms:URI",
+                "$t": "urn:ISBN:9782954093710"
+            },
+            {
+                "xsi:type": "dcterms:URI",
+                "$t": "urn:ISBN:9782954093710"
+            }
+        ],
+        "author": {
+            "name": "Morgan Magnin",
+            "uri": "http://www.feedbooks.com/search?query=contributor%3A%22Morgan+Magnin%22"
+        },
+        "published": "2012-02-15T00:52:03Z",
+        "updated": "2012-05-22T23:35:59Z",
+        "dcterms:language": "en",
+        "dcterms:publisher": "Univers partagés editions",
+        "dcterms:issued": "2012-02-13",
+        "summary": "Amina works as an executive in a state-of-the-art IT company. She joined that company right after getting her degree and progressively climbed up through the ranks. Greater responsibilities also imply greater pressure. Amina spares no effort worki...",
+        "dcterms:extent": "2 MB",
+        "category": [
+            {
+                "label": "Fiction",
+                "term": "FBFIC000000"
+            },
+            {
+                "label": "Comics & graphic novels",
+                "term": "FBCGN000000"
+            },
+            {
+                "label": "Manga",
+                "term": "FBCGN004050"
+            },
+            {
+                "label": "Contemporary Women",
+                "term": "FBCGN008000"
+            },
+            {
+                "label": "Non-Fiction",
+                "term": "FBNFC000000"
+            },
+            {
+                "label": "Psychology",
+                "term": "FBPSY000000"
+            },
+            {
+                "label": "Developmental",
+                "term": "FBPSY039000"
+            }
+        ],
+        "link": [
+            {
+                "type": "text/html",
+                "rel": "alternate",
+                "title": "View on Feedbooks",
+                "href": "http://www.feedbooks.com/item/204452"
+            },
+            {
+                "type": "image/png",
+                "rel": "http://opds-spec.org/image",
+                "href": "http://covers.feedbooks.net/item/204452.jpg?t=1337729759"
+            },
+            {
+                "type": "image/png",
+                "rel": "http://opds-spec.org/image/thumbnail",
+                "href": "http://covers.feedbooks.net/item/204452.jpg?size=thumbnail&t=1337729759"
+            },
+            {
+                "type": "text/html",
+                "rel": "http://opds-spec.org/acquisition/buy",
+                "href": "https://www.feedbooks.com/item/204452/buy",
+                "opds:price": {
+                    "currencycode": "EUR",
+                    "$t": "0.00"
+                },
+                "opds:indirectAcquisition": {
+                    "type": "application/epub+zip"
+                }
+            },
+            {
+                "type": "application/atom+xml;type=entry;profile=opds-catalog",
+                "rel": "alternate",
+                "title": "Full entry",
+                "href": "http://www.feedbooks.com/item/204452.atom"
+            }
+        ]
+    },
+    {
+        "title": "And then, she ...",
+        "id": "http://www.feedbooks.com/item/89155",
+        "dcterms:identifier": [
+            {
+                "xsi:type": "dcterms:URI",
+                "$t": "urn:ISBN:9782819400882"
+            },
+            {
+                "xsi:type": "dcterms:URI",
+                "$t": "urn:ISBN:9782819400882"
+            }
+        ],
+        "author": {
+            "name": "the  Womanity community",
+            "uri": "http://www.feedbooks.com/search?query=contributor%3A%22the++Womanity+community%22"
+        },
+        "published": "2011-05-02T04:20:01Z",
+        "updated": "2012-08-14T23:36:33Z",
+        "dcterms:language": "en",
+        "dcterms:publisher": "Zebook.com",
+        "dcterms:issued": "2011-04-28",
+        "summary": "Who is Zora? Why did you leave such a desperate letter in a copy of the famous novel Perfume by Patrick Suskind? And how did this book end up in a book club in a small American town lost in the middle of nowhere?Elaine Damon, a young journalist...",
+        "dcterms:extent": "1.7 MB",
+        "category": [
+            {
+                "label": "Fiction",
+                "term": "FBFIC000000"
+            },
+            {
+                "label": "Biographical",
+                "term": "FBFIC041000"
+            },
+            {
+                "label": "English literature",
+                "term": "INFEN000"
+            }
+        ],
+        "link": [
+            {
+                "type": "text/html",
+                "rel": "alternate",
+                "title": "View on Feedbooks",
+                "href": "http://www.feedbooks.com/item/89155"
+            },
+            {
+                "type": "image/png",
+                "rel": "http://opds-spec.org/image",
+                "href": "http://covers.feedbooks.net/item/89155.jpg?t=1344987393"
+            },
+            {
+                "type": "image/png",
+                "rel": "http://opds-spec.org/image/thumbnail",
+                "href": "http://covers.feedbooks.net/item/89155.jpg?size=thumbnail&t=1344987393"
+            },
+            {
+                "type": "text/html",
+                "rel": "http://opds-spec.org/acquisition/buy",
+                "href": "https://www.feedbooks.com/item/89155/buy",
+                "opds:price": {
+                    "currencycode": "EUR",
+                    "$t": "0.00"
+                },
+                "opds:indirectAcquisition": {
+                    "type": "application/epub+zip"
+                }
+            },
+            {
+                "type": "application/atom+xml;type=entry;profile=opds-catalog",
+                "rel": "alternate",
+                "title": "Full entry",
+                "href": "http://www.feedbooks.com/item/89155.atom"
+            }
+        ]
+    },
+    {
+        "title": "Windows 8: What to expect",
+        "id": "http://www.feedbooks.com/item/232637",
+        "dcterms:identifier": [
+            {
+                "xsi:type": "dcterms:URI",
+                "$t": "urn:ISBN:9782918819417"
+            },
+            {
+                "xsi:type": "dcterms:URI",
+                "$t": "urn:ISBN:9782918819417"
+            }
+        ],
+        "author": {
+            "name": "Michel MARTIN",
+            "uri": "http://www.feedbooks.com/search?query=contributor%3A%22Michel+MARTIN%22"
+        },
+        "published": "2012-05-03T23:44:26Z",
+        "updated": "2012-05-07T23:03:05Z",
+        "dcterms:language": "en",
+        "dcterms:publisher": "Mediaforma",
+        "dcterms:issued": "2012-04-28",
+        "summary": "As a preview, this eBook reveals the main innovations of Windows 8, Microsoft future Operating System.Throughout the pages, you'll:discover how to install Windows 8 Consumer Preview without affecting your current OS,learn how to use the m...",
+        "dcterms:extent": "3.4 MB",
+        "category": [
+            {
+                "label": "Non-Fiction",
+                "term": "FBNFC000000"
+            },
+            {
+                "label": "Computers",
+                "term": "FBCOM000000"
+            },
+            {
+                "label": "Hardware and devices",
+                "term": "FBCOM067000"
+            }
+        ],
+        "link": [
+            {
+                "type": "text/html",
+                "rel": "alternate",
+                "title": "View on Feedbooks",
+                "href": "http://www.feedbooks.com/item/232637"
+            },
+            {
+                "type": "image/png",
+                "rel": "http://opds-spec.org/image",
+                "href": "http://covers.feedbooks.net/item/232637.jpg?t=1336431785"
+            },
+            {
+                "type": "image/png",
+                "rel": "http://opds-spec.org/image/thumbnail",
+                "href": "http://covers.feedbooks.net/item/232637.jpg?size=thumbnail&t=1336431785"
+            },
+            {
+                "type": "text/html",
+                "rel": "http://opds-spec.org/acquisition/buy",
+                "href": "https://www.feedbooks.com/item/232637/buy",
+                "opds:price": {
+                    "currencycode": "EUR",
+                    "$t": "0.00"
+                },
+                "opds:indirectAcquisition": {
+                    "type": "application/epub+zip"
+                }
+            },
+            {
+                "type": "application/atom+xml;type=entry;profile=opds-catalog",
+                "rel": "alternate",
+                "title": "Full entry",
+                "href": "http://www.feedbooks.com/item/232637.atom"
+            }
+        ]
+    },
+    {
+        "title": "Stuff Hipsters Hate",
+        "id": "http://www.feedbooks.com/item/77681",
+        "dcterms:identifier": [
+            {
+                "xsi:type": "dcterms:URI",
+                "$t": "urn:ISBN:9780899976525"
+            },
+            {
+                "xsi:type": "dcterms:URI",
+                "$t": "urn:ISBN:9780899976525"
+            }
+        ],
+        "author": [
+            {
+                "name": "Brenna Ehrlich",
+                "uri": "http://www.feedbooks.com/search?query=contributor%3A%22Brenna+Ehrlich%22"
+            },
+            {
+                "name": "Andrea Bartz",
+                "uri": "http://www.feedbooks.com/search?query=contributor%3A%22Andrea+Bartz%22"
+            }
+        ],
+        "published": "2011-03-17T05:37:53Z",
+        "updated": "2012-07-29T00:07:07Z",
+        "dcterms:language": "en",
+        "dcterms:publisher": "Ulysses Press",
+        "dcterms:issued": "2010-06-30",
+        "summary": "Based on the author's popular tumbler blog stuffhipstershate, which has been called Depressingly astute by the The New Yorker and Wickedly funny by The Frisky, comes the ultimate book on hipsterdom. From the dive bars of Brooklyn&#8217;s Williamsb...",
+        "category": [
+            {
+                "label": "Non-Fiction",
+                "term": "FBNFC000000"
+            },
+            {
+                "label": "Humor",
+                "term": "FBHUM000000"
+            },
+            {
+                "label": "Form",
+                "term": ""
+            },
+            {
+                "label": "Essays",
+                "term": "FBHUM003000"
+            }
+        ],
+        "link": [
+            {
+                "type": "text/html",
+                "rel": "alternate",
+                "title": "View on Feedbooks",
+                "href": "http://www.feedbooks.com/item/77681"
+            },
+            {
+                "type": "image/png",
+                "rel": "http://opds-spec.org/image",
+                "href": "http://covers.feedbooks.net/item/77681.jpg?t=1343520427"
+            },
+            {
+                "type": "image/png",
+                "rel": "http://opds-spec.org/image/thumbnail",
+                "href": "http://covers.feedbooks.net/item/77681.jpg?size=thumbnail&t=1343520427"
+            },
+            {
+                "type": "text/html",
+                "rel": "http://opds-spec.org/acquisition/buy",
+                "href": "https://www.feedbooks.com/item/77681/buy",
+                "opds:price": {
+                    "currencycode": "USD",
+                    "$t": "0.00"
+                },
+                "opds:indirectAcquisition": {
+                    "type": "application/vnd.adobe.adept+xml",
+                    "opds:indirectAcquisition": {
+                        "type": "application/epub+zip"
+                    }
+                }
+            },
+            {
+                "type": "application/atom+xml;type=entry;profile=opds-catalog",
+                "rel": "alternate",
+                "title": "Full entry",
+                "href": "http://www.feedbooks.com/item/77681.atom"
+            }
+        ]
+    },
+    {
+        "title": "Down Lab Lane: Intermediation",
+        "id": "http://www.feedbooks.com/item/195944",
+        "dcterms:identifier": [
+            {
+                "xsi:type": "dcterms:URI",
+                "$t": "urn:ISBN:9782924060780"
+            },
+            {
+                "xsi:type": "dcterms:URI",
+                "$t": "urn:ISBN:9782924060780"
+            }
+        ],
+        "author": {
+            "name": "Collectif",
+            "uri": "http://www.feedbooks.com/search?query=contributor%3A%22Collectif%22"
+        },
+        "published": "2012-01-20T00:05:17Z",
+        "updated": "2012-03-18T16:12:59Z",
+        "dcterms:language": "en",
+        "dcterms:publisher": "Numeriklivres",
+        "dcterms:issued": "2012-01-18",
+        "summary": "Choosing intermediation as an inaugural theme of Down Lab Lane amounts to admit that our whole digital life stops by intermediaries and that we always have dealt with without always being aware of it.Our perception of reality is more a...",
+        "dcterms:extent": "407.4 KB",
+        "link": [
+            {
+                "type": "text/html",
+                "rel": "alternate",
+                "title": "View on Feedbooks",
+                "href": "http://www.feedbooks.com/item/195944"
+            },
+            {
+                "type": "image/png",
+                "rel": "http://opds-spec.org/image",
+                "href": "http://covers.feedbooks.net/item/195944.jpg?t=1332087179"
+            },
+            {
+                "type": "image/png",
+                "rel": "http://opds-spec.org/image/thumbnail",
+                "href": "http://covers.feedbooks.net/item/195944.jpg?size=thumbnail&t=1332087179"
+            },
+            {
+                "type": "text/html",
+                "rel": "http://opds-spec.org/acquisition/buy",
+                "href": "https://www.feedbooks.com/item/195944/buy",
+                "opds:price": {
+                    "currencycode": "EUR",
+                    "$t": "0.00"
+                },
+                "opds:indirectAcquisition": {
+                    "type": "application/epub+zip"
+                }
+            },
+            {
+                "type": "application/atom+xml;type=entry;profile=opds-catalog",
+                "rel": "alternate",
+                "title": "Full entry",
+                "href": "http://www.feedbooks.com/item/195944.atom"
+            }
+        ]
+    }
+]

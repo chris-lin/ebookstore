@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:app="http://www.w3.org/2007/app" xmlns="http://www.w3.org/2005/Atom">
+  <id>http://www.feedbooks.com/store/categories/FBFIC000000.atom?lang=en</id>
+  <title>Fiction</title>
+  <updated>2012-09-05T02:58:03Z</updated>
+  <icon>http://assets1.feedbooks.net/images/favicon.ico?t=1346771812</icon>
+  <author>
+    <name>Feedbooks</name>
+    <uri>http://www.feedbooks.com</uri>
+    <email>support@feedbooks.zendesk.com</email>
+  </author>
+  <link type="application/atom+xml; profile=opds-catalog; kind=navigation" rel="self" href="http://www.feedbooks.com/store/categories/FBFIC000000.atom?lang=en"/>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="start" title="Home" href="/catalog.atom"/>
+  <link type="application/opensearchdescription+xml" rel="search" title="Search on Feedbooks" href="http://assets3.feedbooks.net/opensearch.xml?t=1346771628"/>
+  <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/shelf" title="Bookshelf" href="https://www.feedbooks.com/user/bookshelf.atom"/>
+<opensearch:totalResults>30</opensearch:totalResults>
+<opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+<link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="next" title="Next Page" href="http://www.feedbooks.com/store/categories/FBFIC000000.atom?lang=tw&amp;page=2"/>
+<entry>
+  <title>Romance</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC027000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC027000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(17223)</content>
+</entry>
+<entry>
+  <title>Juvenile &amp; Young Adult</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBJUV000000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBJUV000000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(3788)</content>
+</entry>
+<entry>
+  <title>Mystery &amp; Detective</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC022000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC022000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(3358)</content>
+</entry>
+<entry>
+  <title>Classics</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC004000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC004000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(2635)</content>
+</entry>
+<entry>
+  <title>Erotica</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC005000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC005000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(2172)</content>
+</entry>
+<entry>
+  <title>Literary</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC019000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC019000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(1653)</content>
+</entry>
+<entry>
+  <title>Christian</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC042000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC042000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(1497)</content>
+</entry>
+<entry>
+  <title>Science Fiction</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC028000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC028000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(1425)</content>
+</entry>
+<entry>
+  <title>Fantasy</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC009000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC009000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(1256)</content>
+</entry>
+<entry>
+  <title>Historical</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC014000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC014000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(1229)</content>
+</entry>
+<entry>
+  <title>Poetry</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBPOE000000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBPOE000000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(1006)</content>
+</entry>
+<entry>
+  <title>Short Stories</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC029000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC029000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(1000)</content>
+</entry>
+<entry>
+  <title>Thrillers</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC031000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC031000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(823)</content>
+</entry>
+<entry>
+  <title>Action &amp; Adventure</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC002000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC002000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(675)</content>
+</entry>
+<entry>
+  <title>LGBT</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC060000N&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC060000N&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(665)</content>
+</entry>
+<entry>
+  <title>Occult &amp; Supernatural</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC024000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC024000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(560)</content>
+</entry>
+<entry>
+  <title>Drama</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBDRA000000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBDRA000000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(489)</content>
+</entry>
+<entry>
+  <title>Horror</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC015000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC015000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(457)</content>
+</entry>
+<entry>
+  <title>Fairy Tales, Folk Tales &amp; Mythology</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC010000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC010000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(397)</content>
+</entry>
+<entry>
+  <title>Contemporary Women</title>
+  <id>http://www.feedbooks.com/store/top.atom?category=FBFIC044000&amp;lang=en&amp;range=week</id>
+  <link type="application/atom+xml;profile=opds-catalog" rel="subsection" href="http://www.feedbooks.com/store/top.atom?category=FBFIC044000&amp;lang=en&amp;range=week"/>
+  <updated>2012-09-05T02:26:11Z</updated>
+  <content type="text">(352)</content>
+</entry>
+</feed>

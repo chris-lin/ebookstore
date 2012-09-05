@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  script
+    var entry = [#{entry}];
+    console.log(entry);
+  - for (var key in entry)
+    p.catalog
+      a.btn.btn-primary(href='#{entry[key].link.href}')
+        i= entry[key].title

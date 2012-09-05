@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Store",
+        "link": {
+            "type": "application/atom+xml;profile=opds-catalog;kind=acquisition",
+            "rel": "subsection",
+            "href": "http://www.feedbooks.com/store/top.atom?price=free"
+        },
+        "updated": "2012-09-05T04:28:41Z",
+        "id": "http://www.feedbooks.com/store/top.atom?price=free",
+        "content": {
+            "type": "text",
+            "$t": "Free books from the store"
+        }
+    },
+    {
+        "title": "Public Domain Books",
+        "link": {
+            "type": "application/atom+xml;profile=opds-catalog;kind=navigation",
+            "rel": "subsection",
+            "href": "http://www.feedbooks.com/publicdomain/catalog.atom"
+        },
+        "updated": "2012-09-05T04:28:41Z",
+        "id": "http://www.feedbooks.com/publicdomain/catalog.atom",
+        "content": {
+            "type": "text",
+            "$t": "Free classics and CC-licensed books"
+        }
+    },
+    {
+        "title": "Original Books",
+        "link": {
+            "type": "application/atom+xml;profile=opds-catalog;kind=navigation",
+            "rel": "subsection",
+            "href": "http://www.feedbooks.com/original/catalog.atom"
+        },
+        "updated": "2012-09-05T04:28:41Z",
+        "id": "http://www.feedbooks.com/original/catalog.atom",
+        "content": {
+            "type": "text",
+            "$t": "Self-Published on Feedbooks"
+        }
+    }
+]

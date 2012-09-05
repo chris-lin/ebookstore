@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:app="http://www.w3.org/2007/app" xmlns="http://www.w3.org/2005/Atom">
+  <id>http://www.feedbooks.com/catalog.atom</id>
+  <title>Feedbooks</title>
+  <updated>2012-09-05T02:25:15Z</updated>
+  <icon>http://assets1.feedbooks.net/images/favicon.ico?t=1346771812</icon>
+  <author>
+    <name>Feedbooks</name>
+    <uri>http://www.feedbooks.com</uri>
+    <email>support@feedbooks.zendesk.com</email>
+  </author>
+  <link type="application/atom+xml; profile=opds-catalog; kind=navigation" rel="self" href="http://www.feedbooks.com/catalog.atom"/>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="start" title="Home" href="/catalog.atom"/>
+  <link type="application/opensearchdescription+xml" rel="search" title="Search on Feedbooks" href="http://assets3.feedbooks.net/opensearch.xml?t=1346771628"/>
+  <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/shelf" title="Bookshelf" href="https://www.feedbooks.com/user/bookshelf.atom"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/featured" title="New &amp; Noteworthy" href="http://www.feedbooks.com/featured.atom"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/sort/popular" title="Best Sellers" href="http://www.feedbooks.com/store/top.atom"/>
+<entry>
+  <title>Best Sellers</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/sort/popular" href="http://www.feedbooks.com/store/top.atom"/>
+  <updated>2012-09-05T02:25:15Z</updated>
+  <id>http://www.feedbooks.com/books/top.atom?range=week</id>
+  <content type="text">All categories</content>
+</entry>
+<entry>
+  <title>New Releases</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/sort/new" href="http://www.feedbooks.com/store/recent.atom"/>
+  <updated>2012-09-05T02:25:15Z</updated>
+  <id>http://www.feedbooks.com/books/recent.atom</id>
+  <content type="text">Freshly arrived on Feedbooks</content>
+</entry>
+<entry>
+  <title>Categories</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="subsection" href="http://www.feedbooks.com/store/categories.atom"/>
+  <updated>2012-09-05T02:25:15Z</updated>
+  <id>http://www.feedbooks.com/store/categories.atom</id>
+  <content type="text">Browse book by category</content>
+</entry>
+<entry>
+  <title>Recommended Readings</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="subsection" href="http://www.feedbooks.com/recommended.atom"/>
+  <updated>2012-09-05T02:25:15Z</updated>
+  <id>http://www.feedbooks.com/recommended.atom</id>
+  <content type="text">Browse through our lists of recommended books</content>
+</entry>
+<entry>
+  <title>Free Books</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="subsection" href="http://www.feedbooks.com/site/free_books.atom"/>
+  <updated>2012-09-05T02:25:15Z</updated>
+  <id>http://www.feedbooks.com/site/free_books.atom</id>
+  <content type="text">Thousands of free classics and originals</content>
+</entry>
+<entry>
+  <title>Profile</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="subsection" href="https://www.feedbooks.com/user/profile.atom"/>
+  <updated>2012-09-05T02:25:15Z</updated>
+  <id>https://www.feedbooks.com/user/profile.atom</id>
+  <content type="text">Your personal content</content>
+</entry>
+</feed>

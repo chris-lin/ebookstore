@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:dcterms="http://purl.org/dc/terms/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:opds="http://opds-spec.org/2010/catalog" xml:lang="en" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:app="http://www.w3.org/2007/app" xmlns="http://www.w3.org/2005/Atom">
+  <id>http://www.feedbooks.com/site/free_books.atom</id>
+  <title>Free Books</title>
+  <updated>2012-09-05T04:28:41Z</updated>
+  <icon>http://assets1.feedbooks.net/images/favicon.ico?t=1346771812</icon>
+  <author>
+    <name>Feedbooks</name>
+    <uri>http://www.feedbooks.com</uri>
+    <email>support@feedbooks.zendesk.com</email>
+  </author>
+  <link type="application/atom+xml; profile=opds-catalog; kind=navigation" rel="self" href="http://www.feedbooks.com/site/free_books.atom"/>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="start" title="Home" href="/catalog.atom"/>
+  <link type="application/opensearchdescription+xml" rel="search" title="Search on Feedbooks" href="http://assets3.feedbooks.net/opensearch.xml?t=1346771628"/>
+  <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/shelf" title="Bookshelf" href="https://www.feedbooks.com/user/bookshelf.atom"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/featured" title="Public Domain Books" href="http://www.feedbooks.com/featured.atom?view=books"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="http://opds-spec.org/featured" title="Original Books" href="http://www.feedbooks.com/featured.atom?view=userbooks"/>
+<entry>
+  <title>Store</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="subsection" href="http://www.feedbooks.com/store/top.atom?price=free"/>
+  <updated>2012-09-05T04:28:41Z</updated>
+  <id>http://www.feedbooks.com/store/top.atom?price=free</id>
+  <content type="text">Free books from the store</content>
+</entry>
+<entry>
+  <title>Public Domain Books</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="subsection" href="http://www.feedbooks.com/publicdomain/catalog.atom"/>
+  <updated>2012-09-05T04:28:41Z</updated>
+  <id>http://www.feedbooks.com/publicdomain/catalog.atom</id>
+  <content type="text">Free classics and CC-licensed books</content>
+</entry>
+<entry>
+  <title>Original Books</title>
+  <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="subsection" href="http://www.feedbooks.com/original/catalog.atom"/>
+  <updated>2012-09-05T04:28:41Z</updated>
+  <id>http://www.feedbooks.com/original/catalog.atom</id>
+  <content type="text">Self-Published on Feedbooks</content>
+</entry>
+</feed>

@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Best Sellers",
+        "link": {
+            "type": "application/atom+xml;profile=opds-catalog;kind=acquisition",
+            "rel": "http://opds-spec.org/sort/popular",
+            "href": "http://www.feedbooks.com/store/top.atom"
+        },
+        "updated": "2012-09-05T02:25:15Z",
+        "id": "http://www.feedbooks.com/books/top.atom?range=week",
+        "content": {
+            "type": "text",
+            "$t": "All categories"
+        }
+    },
+    {
+        "title": "New Releases",
+        "link": {
+            "type": "application/atom+xml;profile=opds-catalog;kind=acquisition",
+            "rel": "http://opds-spec.org/sort/new",
+            "href": "http://www.feedbooks.com/store/recent.atom"
+        },
+        "updated": "2012-09-05T02:25:15Z",
+        "id": "http://www.feedbooks.com/books/recent.atom",
+        "content": {
+            "type": "text",
+            "$t": "Freshly arrived on Feedbooks"
+        }
+    },
+    {
+        "title": "Categories",
+        "link": {
+            "type": "application/atom+xml;profile=opds-catalog;kind=navigation",
+            "rel": "subsection",
+            "href": "http://www.feedbooks.com/store/categories.atom"
+        },
+        "updated": "2012-09-05T02:25:15Z",
+        "id": "http://www.feedbooks.com/store/categories.atom",
+        "content": {
+            "type": "text",
+            "$t": "Browse book by category"
+        }
+    },
+    {
+        "title": "Recommended Readings",
+        "link": {
+            "type": "application/atom+xml;profile=opds-catalog;kind=navigation",
+            "rel": "subsection",
+            "href": "http://www.feedbooks.com/recommended.atom"
+        },
+        "updated": "2012-09-05T02:25:15Z",
+        "id": "http://www.feedbooks.com/recommended.atom",
+        "content": {
+            "type": "text",
+            "$t": "Browse through our lists of recommended books"
+        }
+    },
+    {
+        "title": "Free Books",
+        "link": {
+            "type": "application/atom+xml;profile=opds-catalog;kind=navigation",
+            "rel": "subsection",
+            "href": "http://www.feedbooks.com/site/free_books.atom"
+        },
+        "updated": "2012-09-05T02:25:15Z",
+        "id": "http://www.feedbooks.com/site/free_books.atom",
+        "content": {
+            "type": "text",
+            "$t": "Thousands of free classics and originals"
+        }
+    },
+    {
+        "title": "Profile",
+        "link": {
+            "type": "application/atom+xml;profile=opds-catalog;kind=navigation",
+            "rel": "subsection",
+            "href": "https://www.feedbooks.com/user/profile.atom"
+        },
+        "updated": "2012-09-05T02:25:15Z",
+        "id": "https://www.feedbooks.com/user/profile.atom",
+        "content": {
+            "type": "text",
+            "$t": "Your personal content"
+        }
+    }
+]
