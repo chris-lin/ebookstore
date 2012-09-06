@@ -31,7 +31,10 @@ app.locals.pretty = true;
 
 app.get('/', routes.index);
 app.get('/free_books.atom', routes.free_books);
-app.get('/books', routes.books);
+app.get('/categories.atom', routes.categories);
+app.get('/FBFIC000000.atom', routes.FBFIC000000);
+app.get('/top.atom', routes.books);
+//app.get('/books', routes.books);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
