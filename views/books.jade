@@ -1,12 +1,29 @@
 extends layout
 
-block content
-    - for (var books in entry)
-        .abc
-            h3= entry[books].title
-            img(src='#{entry[books].link[2].href}')
-            p 書名： #{entry[books].title}
-            p 作者：#{entry[books].author.name}
-            p 上傳日期：#{entry[books].updated}
-            p 摘要：#{entry[books].summary}
+block books
+	- for (var books in entry)
+		.row
+			.span2.high.margin
+					h3= entry[books].title
+					img(src='#{entry[books].link[1].href}')
+			.span6.margin.left-border.padding.high
+					p
+						strong 書名：
+						|  #{entry[books].title}
+					p
+						strong 作者：
+						|  #{entry[books].author.name}
+					p
+						strong 上傳日期：
+						|  #{entry[books].updated}
+					p
+						strong 摘要：
+						|  #{entry[books].summary}
 
+block category
+	ul
+		- for (var key in categories)
+			li
+				p.catalog
+					a.category(value='#{categories[key].link.href}', href='#')
+						i= categories[key].title

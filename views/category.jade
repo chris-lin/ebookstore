@@ -1,10 +1,7 @@
 extends layout
 
-block content
-  script
-    var entry = [#{entry}];
-    console.log(entry);
+block category
   - for (var key in entry)
     p.catalog
-      a.btn.btn-primary(href='#{entry[key].link.href}')
+      a.category.btn.btn-primary(value='#{entry[key].link.href}', href='#')
         i= entry[key].title
