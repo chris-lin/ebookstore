@@ -23,12 +23,11 @@ var entry
 
 
 exports.post = function(req, res, next){
+  //console.log(req.body);
   entry = catchEntry(req.body.data);
   if(entry[0].link.type){  // if category
     categories = entry;
-    console.log(1111111111111111);
   } else {
-    console.log(2222222222222222);
     books = entry;
   }
   res.redirect( '/books' );

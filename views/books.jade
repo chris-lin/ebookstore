@@ -12,7 +12,10 @@ block books
 						|  #{entry[books].title}
 					p
 						strong 作者：
-						|  #{entry[books].author.name}
+						if entry[books].author
+							|  #{entry[books].author.name}
+						else
+							|  Anonymous
 					p
 						strong 上傳日期：
 						|  #{entry[books].updated}
