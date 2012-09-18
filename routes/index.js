@@ -4,49 +4,90 @@
  */
 var http = require('http');
 var path = require('path');
-var opds = require('../opds2json'); //指定opds2json的位置將其載入
+var fs = require('fs');
+var feedbooks = require('../store/feedbooks');
+var cbeta = require('../store/cbeta');
 
-//~ var cataLink = function (entry){
-  //~ for(var key in entry){
-    //~ entry[key].link.href = path.basename(entry[key].link.href)
-  //~ }
-//~ }
-
-var catchEntry = function (file){
-  var opdsParser = opds.init(file);  //指定xml檔案路徑並且回傳物件
-  var json = opdsParser.findEntry(); //尋找該xml檔案現有的entry標籤抓取出來並且轉成json格式
-  return JSON.parse(json)
-}
 var entry
   , books
   , categories;
 
+var pagestorage = [],
+  pageIndex = 0;
+
+var managePage = function(obj){
+  pagestorage.splice(pageIndex + 1);
+  pagestorage.push(obj);
+  pageIndex = pagestorage.length - 1;
+}
+
+var downXml = function(url, cb) {
+  var data = '';
+  console.log('----- download start ------')
+  http.get(url, function(res) {
+    console.log('ststus Code = ' + res.statusCode);
+    res.on('data', function(chunk, err) {
+            data += chunk;
+            console.log(data)
+        }).on('end', function() {
+            cb(data);
+            console.log('downloaded to complete');
+        }).on('error', function(err) {
+            console.log('error : '+err);
+            console.log('error message : '+err.message);
+        });
+    });
+}
 
 exports.post = function(req, res, next){
-  //console.log(req.body);
-  entry = catchEntry(req.body.data);
-  if(entry[0].link.type){  // if category
+  entry = feedbooks.catchEntry(req.body.data);
+  //console.log(entry[0].link);
+  if(entry[0].link.length == 1){  // if category
     categories = entry;
   } else {
     books = entry;
   }
+  managePage({
+    categories: categories,
+    books : books
+  });
   res.redirect( '/books' );
 }
 
+exports.locals = function(req, res, next) {
+  //console.log('save session')
+  //console.log(req.url)
+  res.locals.session = req.session;
+  next();
+}
+
 exports.index = function(req, res, next){
-  categories = catchEntry('catalog.atom');
-  books = undefined;
-  //cataLink(entry);
-  res.render('books', {
-      categories: categories,
-      entry: books
+  res.render('home', {
+      store: '歡迎光臨晟鑫書城'
   });
 };
 
-exports.category = function(req, res){
-  res.render('category', { entry: entry });
+exports.previous = function(req, res){
+  console.log(req.session)
+  if(!(pageIndex <= 0)) {
+    pageIndex--;
+    console.log(pageIndex);
+    categories = pagestorage[pageIndex].categories;
+    books = pagestorage[pageIndex].books;
+  }
+  res.redirect( '/books' );
 };
 
+exports.next = function(req, res){
+  req.session.pageMax = true;
+  if(!(pageIndex >= pagestorage.length - 1)) {
+    pageIndex++;
+    console.log(pageIndex);
+    categories = pagestorage[pageIndex].categories;
+    books = pagestorage[pageIndex].books;
+  }
+  res.redirect( '/books' );
+};
 
 exports.books = function(req, res){
   res.render('books', {
@@ -55,3 +96,31 @@ exports.books = function(req, res){
   });
 };
 
+// ------- feedbooks ------- //
+exports.feedbooks = function(req, res, next){
+  var url = 'http://www.feedbooks.com/catalog.atom';
+  downXml(url, function(data){
+    categories = feedbooks.catchEntry(data);
+    books = undefined;
+    //console.log(categories);
+    res.render('books', {
+        categories: categories,
+        entry: books
+    });
+  })
+};
+
+// ------- cbeta ------- //
+exports.cbeta = function(req, res, next){
+  var url = 'http://www.cbeta.org/opds';
+  downXml(url, function(data){
+    //console.log(data);
+    categories = cbeta.catchEntry(data);
+    books = undefined;
+    //console.log(categories);
+    res.render('books', {
+        categories: categories,
+        entry: books
+    });
+  })
+};

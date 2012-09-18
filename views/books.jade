@@ -5,28 +5,51 @@ block books
 		.row
 			.span2.margin
 				.img-regulate
-					img(src='#{entry[books].link[1].href}')
+					img(src='#{entry[books].link[0].href}')
+				a.btn.btn-primary.btn-regulate(href='#{entry[books].link[2].href}')
+					下載
 			.span6.margin.padding.left-border
-					h4
-						strong 書名：
-						|  #{entry[books].title}
-					p
-						strong 作者：
-						if entry[books].author
-							|  #{entry[books].author.name}
-						else
-							|  Anonymous
-					p
-						strong 上傳日期：
-						|  #{entry[books].updated}
-					p
-						strong 摘要：
-						|  #{entry[books].summary}
+				h4
+					strong 書名：
+					|  #{entry[books].title}
+				p
+					strong 作者：
+					if entry[books].author
+						|  #{entry[books].author.name}
+					else
+						|  Anonymous
+				p
+					strong 上傳日期：
+					|  #{entry[books].updated}
+				p
+					strong 摘要：
+					|  #{entry[books].summary}
 
 block category
 	ul.nav.nav-list.bs-docs-sidenav.affix
 		- for (var key in categories)
 			li
 				p.catalog
-					a.category(value='#{categories[key].link.href}', href='#')
+					a.category(value='#{categories[key].link[0].href}', href='#')
 						i= categories[key].title
+block menubar
+	.navbar
+		.navbar-fixed-top
+			.navbar-inner
+				.container
+					button.btn.btn-navbar(type="button",data-toggle="collapse",data-target=".nav-collapse")
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.brand.margin-top10px(href="http://localhost:3000")
+						|  EbookStore
+					.nav-collapse.collapse
+						ul.nav
+							li
+								a(href="http://localhost:3000")
+									img(src="/images/logo-ebooks.png")
+							li.margin-top15px
+								a(href="/previous") 上一頁
+							li.margin-top15px
+								a(href="/next") 下一頁
+

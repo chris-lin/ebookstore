@@ -1,23 +1,41 @@
-var form = [
-  '<form id="form_xml" method="post" action="/post">',
-  '<input type="text" name="data">',
-  '</form>'
-];
+(function(){
+  var form = [
+    '<form id="form_Catalog" method="post" action="/post">',
+    '<input type="text" name="data">',
+    '</form>'
+  ];
 
-$(function(){
-  $('.category').bind('click', function(e){
+  var app = {};
+
+  var App = function(){};
+
+  App.prototype.init = function(){
+    this.bindEvents();
+  }
+
+  App.prototype.bindEvents = function(){
+    $('.category').bind('click', this.switchCatalog)
+    return this;
+  }
+
+  App.prototype.switchCatalog = function(e){
+    //console.log(this);
     var url = $(this).attr('value');
-    var btn = $(this);
+    var body = $('body');
     $.get(url, function(data){
-      btn.append(form.join(''));
-      console.log(btn.html())
-      $('#form_xml > input').val(data);
-      $('#form_xml').submit().hide();
-      /*
-      $.post("/post", {data: data}, function(data) {
-         location = "/books";
-       });
-      */
+      body.append(form.join(''));
+      $('#form_Catalog > input').val(data);
+      $('#form_Catalog').submit();
     }, "html");
-  })
-})
+    return this;
+  }
+
+  $(function(){
+    app = window.app = new App();
+    app.init();
+  });
+
+})();
+
+
+

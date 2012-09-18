@@ -14,6 +14,7 @@ var opds2json = function(file) {
   this._json;
   var ext = path.extname(file),
       xml;
+  //判斷是否為檔案還是文字
   if (ext == '.xml' || ext == '.atom') {
     xml = fs.readFileSync(file) + '';
     this.setFile(file);

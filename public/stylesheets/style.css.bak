@@ -29,10 +29,6 @@ a{
 /* Landscape phones and down */
 @media (max-width: 480px) { ... }
 
-#ebookshome *{
-  text-align: center;
-}
-
 #form_Catalog {
   position: absolute;
   top:0;
@@ -52,7 +48,7 @@ a{
 
 	max-width:110px;
 	height:inherit;
-	width:expression(document.body.clientWidth>110?"110px""auto");/*若圖片大於110px就調整*/
+	width:expression(document.body.clientWidth>110?"110px""auto");/*若圖片大於550px就調整*/
 	overflow:hidden;
 }
 
@@ -68,17 +64,4 @@ a{
 	width:159px;
 	width:expression(document.body.clientWidth>106?"159px":"auto");
 	overflow:hidden;
-}
-
-.btn-regulate{
-	margin-top: 3px;
-	margin-left: 25px;
-}
-
-.margin-top15px{
-	margin-top: 15px;
-}
-
-.margin-top10px{
-	margin-top: 10px;
 }
