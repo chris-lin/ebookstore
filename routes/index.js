@@ -43,37 +43,28 @@ var downXml = function(url, cb) {
 }
 
 var download_file_wget = function(file_url, cb){
-  var data;
-  var DOWNLOAD_DIR = './';
-  // extract the file name
-  var file_name = url.parse(file_url).path.split('/').pop();
+  var data, file_name;
+  var DOWNLOAD_DIR = './tmp/';
   // compose the wget command
   var wget = 'wget -P ' + DOWNLOAD_DIR + ' ' + file_url;
   // excute wget using child_process' exec function
-  var cat = 'cat ' + DOWNLOAD_DIR + file_name;
-
   var child = exec(wget, function(err, stdout, stderr){
     if (err) throw err;
-    console.log(file_name + ' downloaded to ' + DOWNLOAD_DIR);
+    file_name = fs.readdirSync(DOWNLOAD_DIR);
     data = fs.readFileSync(DOWNLOAD_DIR + file_name);
     fs.unlinkSync(DOWNLOAD_DIR + file_name);
+    console.log(file_name + ' downloaded to ' + DOWNLOAD_DIR);
     cb(data);
   });
 };
 
 exports.post = function(req, res, next){
-  entry = feedbooks.catchEntry(req.body.data);
-  //console.log(entry[0].link);
-  if(entry[0].link.length == 1){  // if category
-    categories = entry;
-  } else {
-    books = entry;
+  req.session.catalogURL = req.body.data;
+  if(req.session.locale == 'feedbooks'){
+    res.redirect('/feedbooks:true');
+  } else if(req.session.locale == 'cbeta'){
+    res.redirect('/cbeta:true');
   }
-  managePage({
-    categories: categories,
-    books : books
-  });
-  res.redirect( '/books' );
 }
 
 exports.locals = function(req, res, next) {
@@ -120,10 +111,29 @@ exports.books = function(req, res){
 
 // ------- feedbooks ------- //
 exports.feedbooks = function(req, res, next){
-  var url = 'http://www.feedbooks.com/catalog.atom';
-  downXml(url, function(data){
-    categories = feedbooks.catchEntry(data);
-    books = undefined;
+    var fileUrl;
+  req.session.locale = 'feedbooks';
+
+  if (req.params.id == ':true'){
+    fileUrl = req.session.catalogURL;
+  } else {
+    fileUrl = 'http://www.feedbooks.com/catalog.atom';
+  }
+  console.log(fileUrl)
+  download_file_wget(fileUrl, function(data){
+    //console.log(data);
+    entry = feedbooks.catchEntry(data, req);
+    //console.log(entry);
+
+    if(entry[0].link.length == 1){  // if category
+      categories = entry;
+    } else {
+      books = entry;
+    }
+    managePage({
+      categories: categories,
+      books : books
+    });
     //console.log(categories);
     res.render('books', {
         categories: categories,

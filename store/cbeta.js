@@ -6,7 +6,7 @@ var cbetaHref = 'http://www.cbeta.org';
 
 var filterLink = function(json){
   var entry = JSON.parse(json);
-  console.log(entry)
+  //console.log(entry)
   if(entry.constructor == Object){
     entry = [entry];
   }
@@ -16,6 +16,7 @@ var filterLink = function(json){
       entry[idx].link.href = cbetaHref + entry[idx].link.href;
       entry[idx].link = [entry[idx].link];
     } else {
+      entry[idx].link[0].cbeta = true;
       entry[idx].link = [entry[idx].link[1], entry[idx].link[2], entry[idx].link[0]];
     }
     //console.log(entry[idx])

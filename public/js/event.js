@@ -22,11 +22,9 @@
     //console.log(this);
     var url = $(this).attr('value');
     var body = $('body');
-    $.get(url, function(data){
-      body.append(form.join(''));
-      $('#form_Catalog > input').val(data);
-      $('#form_Catalog').submit();
-    }, "html");
+    body.append(form.join(''));
+    $('#form_Catalog > input').val(url);
+    $('#form_Catalog').submit();
     return this;
   }
 
