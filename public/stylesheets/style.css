@@ -7,38 +7,42 @@ a{
 	color: #00B7FF;
 }
 
-/* Large desktop */
-@media (min-width: 1200px) { ... }
 
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  body{
-    background: red;
-    color: black;
-   }
+
+	/* Large desktop */
+	@media (min-width: 1201px) {
+	.aheight{
+		height: 460px;
+	}
 }
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-  body{
-    background: black;
-    color: white;
-   }
+	/* Desktop*/
+	@media (min-width: 980px) and (max-width: 1200px) {
+	.aheight{
+		height: 540px;
+	}
 }
-
-/* Landscape phones and down */
-@media (max-width: 480px) { ... }
-
-#ebookshome *{
-  text-align: center;
+	/* Portrait tablet to landscape and desktop */
+	@media (min-width: 768px) and (max-width: 979px) {
+      body{
+        background: red;
+        color: black;
+       }
+	.aheight{
+		height: 680px;
+	}
 }
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 767px) {
+      body{
+        background: black;
+        color: white;
+       }
+    }
 
-#form_Catalog {
-  position: absolute;
-  top:0;
-  left:0;
-  display:none;
-}
+	/* Landscape phones and down */
+	@media (max-width: 480px) { ... }
+
+
 
 .padding{
 	padding-left: 30px
@@ -81,4 +85,18 @@ a{
 
 .margin-top10px{
 	margin-top: 10px;
+}
+
+.catalog{
+	font-size: 18px;
+
+}
+
+.img-margin-bottom{
+	margin-bottom: 20px;
+}
+
+.img-margin-feedbooks{
+	margin-bottom: 35px;
+	margin-top: 15px;
 }

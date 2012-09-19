@@ -14,7 +14,7 @@ var filterLink = function(json){
     } else {
       entry[idx].link = entry[idx].link.slice(4,6).concat(entry[idx].link.slice(1,4));
     }
-    console.log(entry[idx])
+    //console.log(entry[idx])
   }
   return entry;
 }

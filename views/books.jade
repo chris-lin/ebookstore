@@ -5,9 +5,10 @@ block books
 		.row
 			.span2.margin
 				.img-regulate
-					img(src='#{entry[books].link[0].href}')
-				a.btn.btn-primary.btn-regulate(href='#{entry[books].link[2].href}')
-					下載
+					if entry[books].link[0].href
+						img(src='#{entry[books].link[0].href}')
+					else
+						img(src='images/logo-ebooks.png')
 			.span6.margin.padding.left-border
 				h4
 					strong 書名：
@@ -25,6 +26,13 @@ block books
 					strong 摘要：
 					|  #{entry[books].summary}
 
+				if entry[books].link[2].buy
+					a(href= '#{entry[books].link[2].href}').btn.btn-primary.btn-regulate Buy it!!
+				else
+					a(href= '#{entry[books].link[2].href}').btn.btn-primary.btn-regulate EPUB
+					a(href= '#{entry[books].link[3].href}').btn.btn-primary.btn-regulate Kindle 
+					a(href= '#{entry[books].link[4].href}').btn.btn-primary.btn-regulate PDF
+
 block category
 	ul.nav.nav-list.bs-docs-sidenav.affix
 		- for (var key in categories)
@@ -32,6 +40,7 @@ block category
 				p.catalog
 					a.category(value='#{categories[key].link[0].href}', href='#')
 						i= categories[key].title
+
 block menubar
 	.navbar
 		.navbar-fixed-top
@@ -45,11 +54,8 @@ block menubar
 						|  EbookStore
 					.nav-collapse.collapse
 						ul.nav
-							li
-								a(href="http://localhost:3000")
-									img(src="/images/logo-ebooks.png")
 							li.margin-top15px
 								a(href="/previous") 上一頁
 							li.margin-top15px
 								a(href="/next") 下一頁
-
+	

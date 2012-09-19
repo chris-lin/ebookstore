@@ -44,7 +44,7 @@ app.get('/books', routes.books);
 app.get('/previous', routes.previous);
 app.get('/next', routes.next);
 app.get('/feedbooks', routes.feedbooks);
-app.get('/cbeta', routes.cbeta);
+app.get('/cbeta:id?', routes.cbeta);
 
 
 //app.get('/users', user.list);

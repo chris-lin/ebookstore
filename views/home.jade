@@ -12,16 +12,13 @@ html
 		script(type='text/javascript', src='/bootstrap/js/bootstrap.js')
 		script(type='text/javascript', src='/js/event.js')
 	body
-		include menubar
-		.container#ebookshome
-			h1= store
-			#menu-bar
-				ul
-					li
-						a(href='/feedbooks') Feedbooks
-					li
-						a(href='/cbeta') 佛教文獻
-					li
-						a(href='#') Menu
-					li
-						a(href='#') Menu
+		.row
+			.span12
+				block menubar
+				.row-fluid
+					.span4
+						block feedbools
+
+						
+					.span4.offset4
+						block sutra

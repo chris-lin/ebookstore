@@ -1,7 +1,0 @@
-extends layout
-
-block category
-  - for (var key in entry)
-    p.catalog
-      a.category.btn.btn-primary(value='#{entry[key].link.href}', href='#')
-        i= entry[key].title

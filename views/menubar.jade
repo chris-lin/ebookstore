@@ -1,21 +1,40 @@
-.row
-  .span12
-    .navbar
-      .navbar-fixed-top
-        .navbar-inner
-          .container
-            button.btn.btn-navbar(type="button",data-toggle="collapse",data-target=".nav-collapse")
-              span.icon-bar
-              span.icon-bar
-              span.icon-bar
-            a.brand.margin-top10px(href="http://localhost:3000")
-              |  EbookStore
-            .nav-collapse.collapse
-              ul.nav
-                li
-                  a(href="http://localhost:3000")
-                    img(src="/images/logo-ebooks.png")
-                li.margin-top15px
-                  a(href="/previous") 上一頁
-                li.margin-top15px
-                  a(href="/next") 下一頁
+extends home
+
+block menubar
+	.navbar
+		.navbar-fixed-top
+			.navbar-inner
+				.container
+					button.btn.btn-navbar(type="button",data-toggle="collapse",data-target=".nav-collapse")
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.brand.margin-top10px(href="http://localhost:3000")
+						|  EbookStore
+					.nav-collapse.collapse
+						ul.nav
+							li.margin-top15px
+								a(href="/previous") 上一頁
+							li.margin-top15px
+								a(href="/next") 下一頁
+
+block feedbools
+	a(href='/feedbooks').btn.aheight
+		.hover
+			.img-margin-feedbooks
+				img(src='images/logo-feedbooks-tiny.png')
+			p
+				|  Feedbooks is a digital library and cloud publishing service for both public domain and original books founded in June 2007 and based in Paris, France. The main focus of the web site is providing e-books with particularly high-quality typesetting in multiple formats, particularly EPUB, Kindle, and PDF formats. Custom PDF generation settings like trim size dimensions and margins are possible on the site.
+			p
+				|  Self-published books are edited using a web interface and they are also accessible via dedicated Kindle and mobile web sites. Creating footnotes is also supported by the user interface.
+
+block sutra
+	a(href='/cbeta').btn
+		.hover
+			.img-margin-bottom
+				img(src='images/cbeta.jpg')
+			p
+				| 中華電子佛典協會（Chinese Buddhist Electronic Text Association 簡稱 CBETA）由「北美印順導師基金會」、「菩提文教基金會」與「中華佛學研究所」於1998年2月15日贊助成立，2001年2月改由「西蓮教育基金會」接替菩提文教基金會繼續協助此案的進行。
+			p
+				| 1997年10月，蕭鎮國提供二十五冊中文資訊交換碼《大正藏》電子稿，並委託國立台灣大學佛學研究中心建構「佛學網路資料庫」整理，電子佛典討論版（buda-tech）的網友草擬「電子版大藏經輸入計畫」，開始進行經典輸入，在網頁技術上做到標記（Markup）處理，以SGML／XML的方式呈現，完全符合 TEI（Text Encoding Initiative）準則。1999年1月，惠敏法師於國際「電子佛典推進協議會」（Electronic Buddhist Text Initiative, EBTI）發表「CBETA and Taisho Tripitaka Project」一文，使佛典電子化正式步入國際舞台。
+		

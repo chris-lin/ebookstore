@@ -765,7 +765,7 @@ form.bs-docs-example {
 .bs-docs-sidenav {
   width: 228px;
   margin: 60px 0 0;
-  padding: 0;
+  padding: 15px 0 0;
   background-color: #fff;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;

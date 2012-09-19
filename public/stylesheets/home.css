@@ -22,9 +22,9 @@
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#CFCFCF);
   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFCFCF));
   background: -moz-linear-gradient(top,  #FFFFFF,  #CFCFCF);
-  margin: 0 auto;
-  padding: 0;
-  width: 145px;
+  margin: auto;
+  padding: auto;
+  width: 300px;
   font-weight: bold;
   border: solid 1px #B4B4B4;
   border-radius: 10px;
@@ -40,7 +40,8 @@
 #menu-bar ul a {
   padding:10px 0px 10px 0px;
   color:#424242 !important;
-  font-size:14px;
+  font-size:30px;
+ 
   text-shadow: 2px 2px 3px #FFFFFF;
   text-decoration: none;
   display: block;

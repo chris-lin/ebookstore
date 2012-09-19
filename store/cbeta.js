@@ -2,16 +2,21 @@ var opds = require('../opds2json'); //指定opds2json的位置將其載入
 
 var catalog = 'application/atom+xml;profile=opds-catalog;kind=acquisition';
 var buy = 'http://opds-spec.org/acquisition/buy';
+var cbetaHref = 'http://www.cbeta.org';
 
 var filterLink = function(json){
   var entry = JSON.parse(json);
+  console.log(entry)
+  if(entry.constructor == Object){
+    entry = [entry];
+  }
   for(var idx in entry){
+
     if(entry[idx].link.constructor == Object){
+      entry[idx].link.href = cbetaHref + entry[idx].link.href;
       entry[idx].link = [entry[idx].link];
-    } else if(entry[idx].link[3].rel == buy){
-      entry[idx].link = entry[idx].link.slice(1,4);
     } else {
-      entry[idx].link = entry[idx].link.slice(4,6).concat(entry[idx].link.slice(1,4));
+      entry[idx].link = [entry[idx].link[1], entry[idx].link[2], entry[idx].link[0]];
     }
     //console.log(entry[idx])
   }
