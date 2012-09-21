@@ -40,7 +40,7 @@ block category
 		- for (var key in categories)
 			li
 				p.catalog
-					a.category(value='#{categories[key].link[0].href}', href='#')
+					a.category(href='#{categories[key].link[0].href}')
 						i= categories[key].title
 
 block menubar
