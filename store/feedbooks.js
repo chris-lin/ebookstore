@@ -57,6 +57,7 @@ feedbooks.prototype._modifyEntry = function(entry, level){
         break;
       case 'Free':
         entry[idx].link = entry[idx].link.slice(4,6).concat(entry[idx].link.slice(1,4));
+        entry[idx].link[2].free = true;
     }
     //console.log(entry[idx])
   }

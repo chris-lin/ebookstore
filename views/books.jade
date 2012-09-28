@@ -28,12 +28,12 @@ block books
 
 				if entry[books].link[2].buy
 					a(href= '#{entry[books].link[2].href}').btn.btn-primary.btn-regulate Buy it!!
-				else if entry[books].link[2].cbeta
-					a(href= '#{entry[books].link[2].href}').btn.btn-primary.btn-regulate EPUB
-				else
+				else if entry[books].link[2].free
 					a(href= '#{entry[books].link[2].href}').btn.btn-primary.btn-regulate EPUB
 					a(href= '#{entry[books].link[3].href}').btn.btn-primary.btn-regulate Kindle
 					a(href= '#{entry[books].link[4].href}').btn.btn-primary.btn-regulate PDF
+				else
+					a(href= '#{entry[books].link[2].href}').btn.btn-primary.btn-regulate EPUB
 
 block category
 	ul.nav.nav-list.bs-docs-sidenav.affix

@@ -51,7 +51,6 @@ cbeta.prototype._modifyEntry = function(entry, level){
         entry[idx].link = [entry[idx].link];
         break;
       case 'Free':
-        entry[idx].link[0].cbeta = true;
         entry[idx].link = [entry[idx].link[1], entry[idx].link[2], entry[idx].link[0]];
     }
     //console.log(entry[idx])

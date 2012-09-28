@@ -5,6 +5,7 @@
 var url = require('url');
 var feedbooks = require('../store/feedbooks');
 var cbeta = require('../store/cbeta');
+var ossiibooks = require('../store/ossiibooks');
 var wget = require('../wget');
 
 var entry
@@ -94,10 +95,6 @@ exports.books = function(req, res){
 exports.feedbooks = function(req, res, next){
   var store = feedbooks.getObject();
   var fileUrl;
-  
-  console.log(req.query.level)
-  console.log(req.url)
-  console.log(url.parse(req.url))
 
   if (req.query.level){
     fileUrl = req.query.level[req.query.level.length - 1];
@@ -112,7 +109,8 @@ exports.feedbooks = function(req, res, next){
         categories: ebooks.categories,
         books : ebooks.books
       });
-      //console.log(categories);
+      console.log(JSON.stringify(ebooks.books, null, 4));
+      console.log(JSON.stringify(ebooks.categories, null, 4));
       res.render('books', {
           categories: ebooks.categories,
           entry: ebooks.books
@@ -152,19 +150,19 @@ exports.cbeta = function(req, res, next){
   })
 };
 
-/*
-exports.post = function(req, res, next){
-  entry = cbeta.catchEntry(req.body.data);
-  //console.log(entry[0].link);
-  if(entry[0].link.length == 1){  // if category
-    categories = entry;
-  } else {
-    books = entry;
-  }
-  managePage({
-    categories: categories,
-    books : books
+// ------- ossiibooks ------- //
+exports.ossiibooks = function(req, res, next){
+  var store = ossiibooks.getObject();
+  var fileUrl;
+
+  store.catchEntry(function(ebooks){
+    managePage({
+      categories: ebooks.categories,
+      books : ebooks.books
+    });
+    res.render('books', {
+        categories: ebooks.categories,
+        entry: ebooks.books
+    });
   });
-  res.redirect( '/books' );
-}
-*/
+};
